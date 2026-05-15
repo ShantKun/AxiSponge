@@ -13,10 +13,10 @@ The goal of this project was to move the SHAKE256 hashing process from a standar
 
 ### 2.1 The "Sponge" Design
 SHAKE256 works like a sponge. It **absorbs** data into its internal state, mixes it up thoroughly using 24 rounds of permutations, and then **squeezes** out the resulting hash.
-:
+![Keccak Sponge Construction](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Keccak_Sponge_Construction.svg/1024px-Keccak_Sponge_Construction.svg.png)
 
 > **<img width="802" height="386" alt="Screenshot from 2026-05-16 02-12-33" src="https://github.com/user-attachments/assets/835111da-1b49-4dc1-8316-fc66e47dd345" />**
-![Keccak Sponge Construction](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Keccak_Sponge_Construction.svg/1024px-Keccak_Sponge_Construction.svg.png)
+
 
 *NIST Sponge Construction - Absorption and Squeezing phases*
 
@@ -51,7 +51,7 @@ The following Python script acts as the "driver" for the hardware core:
 ### 4.2 Hardware vs. Website Result
 I verified the hardware output against a standard SHAKE256 online tool to ensure 100% mathematical accuracy.
 
-> **[<img width="1660" height="501" alt="Screenshot from 2026-05-16 02-04-14" src="https://github.com/user-attachments/assets/16a46c62-55c3-4d86-9372-f8ff6bddcda6" />]**
+> **<img width="1660" height="501" alt="Screenshot from 2026-05-16 02-04-14" src="https://github.com/user-attachments/assets/16a46c62-55c3-4d86-9372-f8ff6bddcda6" />**
 
 ---
 
