@@ -1,0 +1,11 @@
+# Verilator generated files
+obj_dir/
+*.vcd
+Vshake256_top
+
+# Python junk
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
