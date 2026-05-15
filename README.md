@@ -67,3 +67,5 @@ This project is currently verified through high-speed simulation. My next object
    ```bash
    verilator -Wall --cc *.sv --exe main.cpp -O3 --top-module shake256_top
    make -j$(nproc) -C obj_dir -f Vshake256_top.mk Vshake256_top
+
+## Author - Shantanoo N Aher
