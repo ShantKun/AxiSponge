@@ -72,4 +72,4 @@ This project is currently verified through high-speed simulation. My next object
 
 **Shantanoo N. Aher** Pre-final Year, B.Tech Electronics and Telecommunication  
 Dwarkadas J. Sanghvi College of Engineering, Mumbai  
-[Shantanoo Aher](https://www.linkedin.com/in/Shantanoo Aher) | [shantanooaher793@gmail.com](shantanooaher793@gmail.com)
+[Shantanoo Aher](https://www.linkedin.com/in/shantanoo-aher-345816284?utm_source=share_via&utm_content=profile&utm_medium=member_android) | [shantanooaher793@gmail.com](shantanooaher793@gmail.com)
