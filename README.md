@@ -13,7 +13,7 @@ The goal of this project was to move the SHAKE256 hashing process from a standar
 
 ### 2.1 The "Sponge" Design
 SHAKE256 works like a sponge. It **absorbs** data into its internal state, mixes it up thoroughly using 24 rounds of permutations, and then **squeezes** out the resulting hash.
-![Keccak Sponge Construction](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Keccak_Sponge_Construction.svg/1024px-Keccak_Sponge_Construction.svg.png)
+![NIST FIPS 202 Paper](https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.202.pdf)
 
 > **<img width="802" height="386" alt="Screenshot from 2026-05-16 02-12-33" src="https://github.com/user-attachments/assets/835111da-1b49-4dc1-8316-fc66e47dd345" />**
 
