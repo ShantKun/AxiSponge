@@ -68,4 +68,8 @@ This project is currently verified through high-speed simulation. My next object
    verilator -Wall --cc *.sv --exe main.cpp -O3 --top-module shake256_top
    make -j$(nproc) -C obj_dir -f Vshake256_top.mk Vshake256_top
 
-## Author - Shantanoo N Aher
+## Author
+
+**Shantanoo N. Aher** Pre-final Year, B.Tech Electronics and Telecommunication  
+Dwarkadas J. Sanghvi College of Engineering, Mumbai  
+[Shantanoo Aher](https://www.linkedin.com/in/Shantanoo Aher) | [shantanooaher793@gmail.com](shantanooaher793@gmail.com)
