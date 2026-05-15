@@ -13,8 +13,11 @@ The goal of this project was to move the SHAKE256 hashing process from a standar
 
 ### 2.1 The "Sponge" Design
 SHAKE256 works like a sponge. It **absorbs** data into its internal state, mixes it up thoroughly using 24 rounds of permutations, and then **squeezes** out the resulting hash.
+:
 
+> **<img width="802" height="386" alt="Screenshot from 2026-05-16 02-12-33" src="https://github.com/user-attachments/assets/835111da-1b49-4dc1-8316-fc66e47dd345" />**
 ![Keccak Sponge Construction](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Keccak_Sponge_Construction.svg/1024px-Keccak_Sponge_Construction.svg.png)
+
 *NIST Sponge Construction - Absorption and Squeezing phases*
 
 ### 2.2 Modular Logic
@@ -43,7 +46,7 @@ To verify the design, I created a **Co-Simulation** environment using **Verilato
 ### 4.1 Python Bridge Snippet
 The following Python script acts as the "driver" for the hardware core:
 
-> **[<img width="1423" height="844" alt="Screenshot from 2026-05-16 02-02-36" src="https://github.com/user-attachments/assets/c3bc2740-bd96-4b9b-9375-7cfdf3822295" />]**
+> **<img width="1423" height="844" alt="Screenshot from 2026-05-16 02-02-36" src="https://github.com/user-attachments/assets/c3bc2740-bd96-4b9b-9375-7cfdf3822295" />**
 
 ### 4.2 Hardware vs. Website Result
 I verified the hardware output against a standard SHAKE256 online tool to ensure 100% mathematical accuracy.
